@@ -1,0 +1,20 @@
+# BeeCrowd 2165 - Ttwitting
+
+Atividade de V&V usando Java, Maven e JUnit.
+
+## Problema escolhido
+
+BeeCrowd 2165 - Ttwitting.
+
+O programa verifica se uma mensagem cabe em um tweet de até 140 caracteres.
+
+- Até 140 caracteres: TWEET
+- Mais de 140 caracteres: MUTE
+
+## Recursos usados nos testes
+
+- @DisplayName
+- @ParameterizedTest
+- @BeforeEach
+- Maven
+- JUnit
