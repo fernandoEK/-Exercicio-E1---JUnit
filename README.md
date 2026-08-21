@@ -1,18 +1,40 @@
-# BeeCrowd 2165 - Ttwitting
+Exercício E1 - JUnit
 
-Atividade de V&V com Java, Maven e JUnit.
+Exercício da disciplina de Verificação e Validação de Software utilizando Java, Maven e JUnit 6.
 
-## Problema
+Problema escolhido
 
-Verificar se uma mensagem cabe em um tweet de ate 140 caracteres.
+BeeCrowd 2165 - Twitting
 
-- Ate 140 caracteres: TWEET
-- Mais de 140 caracteres: MUTE
+O programa recebe uma mensagem e verifica se ela possui até 140 caracteres.
 
-## Recursos usados
+* Até 140 caracteres: TWEET
+* Mais de 140 caracteres: MUTE
 
-- JUnit
-- @DisplayName
-- @ParameterizedTest
-- @BeforeEach
-- Maven
+Estrutura
+
+O projeto possui:
+
+* Main.java - classe principal do programa;
+* Ttwitting.java - classe auxiliar com a lógica do exercício;
+* TtwittingTest.java - testes unitários da classe auxiliar;
+* pom.xml - configuração do Maven e JUnit 6.
+
+Testes
+
+Foram criados testes para diferentes tamanhos de mensagem, incluindo os casos de fronteira de 140 e 141 caracteres.
+
+Os testes podem ser executados pelo Maven com:
+
+mvn test
+
+Confirmação do BeeCrowd
+
+Confirmação do BeeCrowd
+
+A solução foi submetida ao BeeCrowd e obteve resultado Accepted.
+
+Evidência da submissão
+
+![Accepted no BeeCrowd](evidencias/beecrowd-accepted.png)
+
