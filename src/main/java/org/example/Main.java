@@ -8,11 +8,8 @@ public class Main {
 
         String texto = scanner.nextLine();
 
-        if (texto.length() <= 140) {
-            System.out.println("TWEET");
-        } else {
-            System.out.println("MUTE");
-        }
+        Ttwitting ttwitting = new Ttwitting();
+        System.out.println(ttwitting.classificarMensagem(texto));
 
         scanner.close();
     }
