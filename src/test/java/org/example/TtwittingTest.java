@@ -20,6 +20,7 @@ class TtwittingTest {
 
     @ParameterizedTest
     @CsvSource({
+            "0, TWEET",
             "1, TWEET",
             "140, TWEET",
             "141, MUTE",
